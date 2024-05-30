@@ -1,1 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#pdfViewer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+pre {
+    text-align: left;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
 
