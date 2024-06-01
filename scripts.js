@@ -8,7 +8,6 @@ async function uploadPDF() {
 
     const formData = new FormData();
     formData.append('file', pdfUpload);
-
     // Display the PDF (for simplicity, using URL.createObjectURL)
     const pdfViewer = document.getElementById('pdfViewer');
     pdfViewer.innerHTML = `<iframe src="${URL.createObjectURL(pdfUpload)}" width="100%" height="500px"></iframe>`;
